@@ -7,6 +7,9 @@ public class slingshotShooting : MonoBehaviour
     public float bulletForce = 20f;
     public GameObject bulletPrefab;
 
+    public float timeBtwShots = 1.0f;  //Time between shots
+    private float timeOfLastShot;
+
     private void Fire()
     {
         GameObject bulletClone = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
@@ -17,6 +20,12 @@ public class slingshotShooting : MonoBehaviour
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
-            Fire();
+        {
+            if (Time.time - timeOfLastShot >= timeBtwShots) //If the time elapsed is more than the fire rate, allow a shot
+            {
+                Fire();
+                timeOfLastShot = Time.time;   //set new time of last shot
+            }
+        }
     }
 }
