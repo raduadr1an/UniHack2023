@@ -10,6 +10,9 @@ public class playerMovement : MonoBehaviour
     private float vertical;
     private float moveLimiter = 0.7f;
 
+    public Camera cam;
+    private Vector2 mousePos;
+
     public float moveSpeed = 20.0f;
 
     private void Start()
@@ -21,6 +24,8 @@ public class playerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
         vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void FixedUpdate()
@@ -33,5 +38,8 @@ public class playerMovement : MonoBehaviour
         }
 
         body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
+        Vector2 lookDir = mousePos - body.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        body.rotation = angle;
     }
 }

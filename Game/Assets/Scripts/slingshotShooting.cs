@@ -3,16 +3,18 @@ using System.Collections;
 
 public class slingshotShooting : MonoBehaviour
 {
-    public float bulletSpeed = 10;
-    public Rigidbody bullet;
+    public Transform firePoint;
+    public float bulletForce = 20f;
+    public GameObject bulletPrefab;
 
-    void Fire()
+    private void Fire()
     {
-        Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, transform.position, transform.rotation);
-        bulletClone.velocity = transform.forward * bulletSpeed;
+        GameObject bulletClone = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D rigidBody = bulletClone.GetComponent<Rigidbody2D>();
+        rigidBody.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
             Fire();
