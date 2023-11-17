@@ -5,6 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     private Rigidbody2D body;
+    private SpriteRenderer sprite;
 
     private float horizontal;
     private float vertical;
@@ -18,6 +19,7 @@ public class playerMovement : MonoBehaviour
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -40,6 +42,7 @@ public class playerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
         Vector2 lookDir = mousePos - body.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        body.rotation = angle;
+        sprite.flipX = (angle < 0f && angle > -180f) ? false : true;
+        Debug.Log(angle);
     }
 }
