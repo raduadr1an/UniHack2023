@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
-  - They offered them places to stay and food to eat<
+  - Beaten  up and  kicked out of the village<
+  - ' With nowhere to go, they decide to set up a camp in a nearby area<'
+  - "Where they form the \u201CThe Yellow Alliance\u201D<"
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
