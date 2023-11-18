@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56, y: 300}
+  m_AnchoredPosition: {x: 241.72, y: -429.65}
   m_SizeDelta: {x: -100, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376652220
@@ -215,9 +215,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
-  - They offered them places to stay and food to eat<
+  - The Blue Alliance celebrated this victory, besides the leader, Orion, who remained
+    marked by this event<
+  - ' That night, Orion had a nightmare that traumatized him<'
+  - The next day, he told his allies about this nightmare, and tried to convince
+    them<
+  - At first, he obviously failed. After that, he decided to take a walk<
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
@@ -300,7 +303,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: e4ac0d63b3a389a4f9b18c1b518edf15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42a6c85388b41474a9c059226204b41a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -319,8 +322,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0.9, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.7, y: -2.6, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -361,8 +364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 40}
-  m_SizeDelta: {x: 1500, y: 300}
+  m_AnchoredPosition: {x: -241, y: 43}
+  m_SizeDelta: {x: 1500, y: 307.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768263574
 MonoBehaviour:
@@ -384,7 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: j
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -670,7 +673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 360}
+  m_AnchoredPosition: {x: 0, y: -360}
   m_SizeDelta: {x: 1500, y: 255.9689}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416279746

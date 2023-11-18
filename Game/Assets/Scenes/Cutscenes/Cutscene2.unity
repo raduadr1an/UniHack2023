@@ -215,7 +215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - <
+  - Emberbane was a master manipulator who started a movement<
+  - " that turned the city of Emberfall into an empire named \u201CImperium Embralis\u201D<"
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
@@ -306,7 +307,7 @@ SpriteRenderer:
   m_Size: {x: 7.11, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &750008285

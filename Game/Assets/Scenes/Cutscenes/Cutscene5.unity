@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56, y: 300}
+  m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: -100, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376652220
@@ -215,9 +215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
-  - They offered them places to stay and food to eat<
+  - "They also taught them about the \u201CGod Of Water\u201D<"
+  - A divine figure which they worship<
+  - It is said that the people who worship this god are loyal and hard working<
+  - But their biggest flaw is that they are very hostile to people of different beliefs<
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
@@ -249,7 +250,7 @@ Animator:
   m_GameObject: {fileID: 750008282}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bd491f8df3a9c7b4b91a50efcac1cd42, type: 2}
+  m_Controller: {fileID: 9100000, guid: a98520b34ca3e53409db29b110c6f717, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -300,7 +301,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: e4ac0d63b3a389a4f9b18c1b518edf15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5a642fbbdb17964eb8652b85267f070, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -319,8 +320,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0.9, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: -8, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -361,7 +362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 40}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 1500, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768263574
@@ -670,8 +671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 360}
-  m_SizeDelta: {x: 1500, y: 255.9689}
+  m_AnchoredPosition: {x: 0, y: -345}
+  m_SizeDelta: {x: 1500, y: 289.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416279746
 MonoBehaviour:

@@ -215,9 +215,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
-  - They offered them places to stay and food to eat<
+  - The blue people after coming back from a defeat<
+  - Plan an attack on the yellow base with even more troops<
+  - On the way there, they meet up with the yellow people<
+  - ' Who were unarmed<'
+  - "The yellow leader, told them that they didn\u2019t come to fight, but to have
+    a chat<"
+  - The fury and anger blinded the blue people and made them only seek revenge<
+  - ' So they attacked the yellow people, making them fall back<'
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
@@ -300,7 +305,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: e4ac0d63b3a389a4f9b18c1b518edf15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e664db724ebab8742951b24c0d00607b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -319,8 +324,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0.9, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 2.9124, y: -0.1357, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
