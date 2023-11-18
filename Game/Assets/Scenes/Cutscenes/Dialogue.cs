@@ -4,26 +4,24 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Dialogue2 : MonoBehaviour
+public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     public Animator fade;
 
-    public Animator fadeTextBox;
-
-
     private int index;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         textComponent.text = string.Empty;
         StartDialogue();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -36,17 +34,16 @@ public class Dialogue2 : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-
         }
     }
 
-    void StartDialogue()
+    private void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
     }
 
-    IEnumerator TypeLine()
+    private IEnumerator TypeLine()
     {
         foreach (char c in lines[index].ToCharArray())
         {
@@ -55,7 +52,7 @@ public class Dialogue2 : MonoBehaviour
         }
     }
 
-    void NextLine()
+    private void NextLine()
     {
         if (index < lines.Length - 1)
         {
@@ -67,14 +64,13 @@ public class Dialogue2 : MonoBehaviour
         {
             // If this is the last line, set the boolean to true
             fade.SetBool("Finish line", true);
-            fadeTextBox.SetBool("Finish line", true);
             Invoke("Execute", 1f);
             gameObject.SetActive(false);
         }
-
     }
-    void Execute()
+
+    private void Execute()
     {
-        SceneManager.LoadScene("Cutscene1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

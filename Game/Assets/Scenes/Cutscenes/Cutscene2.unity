@@ -210,16 +210,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 376652217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53256333d2a33e540b48abcb3a44c705, type: 3}
+  m_Script: {fileID: 11500000, guid: bbaf5e7fe8020c44caac28abe59bb787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
+  - <
   textSpeed: 0.1
   fade: {fileID: 750008283}
-  fadeTextBox: {fileID: 1416279748}
+  fadeBox: {fileID: 1416279748}
 --- !u!1 &750008282
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +231,7 @@ GameObject:
   - component: {fileID: 750008284}
   - component: {fileID: 750008283}
   m_Layer: 0
-  m_Name: theophile-curto-city-purple
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -307,7 +306,7 @@ SpriteRenderer:
   m_Size: {x: 7.11, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &750008285
@@ -337,7 +336,7 @@ GameObject:
   - component: {fileID: 768263575}
   - component: {fileID: 768263574}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -540,7 +539,7 @@ GameObject:
   - component: {fileID: 1320775602}
   - component: {fileID: 1320775604}
   m_Layer: 0
-  m_Name: plain-black-background-02fh7564l8qq4m6d
+  m_Name: Black Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
