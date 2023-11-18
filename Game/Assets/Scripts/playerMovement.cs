@@ -6,6 +6,7 @@ public class playerMovement : MonoBehaviour
 {
     private Rigidbody2D body;
     private SpriteRenderer sprite;
+    private Animator animator;
 
     private float horizontal;
     private float vertical;
@@ -20,6 +21,7 @@ public class playerMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -28,6 +30,8 @@ public class playerMovement : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical"); // -1 is down
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        animator.SetBool("isWalking", (horizontal != 0 || vertical != 0) ? true : false);
     }
 
     private void FixedUpdate()
