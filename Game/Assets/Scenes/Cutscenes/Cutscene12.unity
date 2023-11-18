@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 56, y: 300}
-  m_SizeDelta: {x: -100, y: -600}
+  m_AnchoredPosition: {x: 240.86, y: 300}
+  m_SizeDelta: {x: -98.28, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376652220
 MonoBehaviour:
@@ -215,9 +215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - Beaten  up and  kicked out of the village<
-  - ' With nowhere to go, they decide to set up a camp in a nearby area<'
-  - "Where they form the \u201CThe Yellow Alliance\u201D<"
+  - After that, Orion and a big part of The Blue Alliance, headed to the yellow base,
+    in order to have a dialogue<
+  - "One man however, Gabral, an important asset of The Blue Alliance, completely
+    refused to follow Orion\u2019s movement, and eventually left The Blue Alliance<"
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
@@ -305,7 +306,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.11, y: 4}
+  m_Size: {x: 3.6, y: 12.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -319,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2, y: 2.1, z: 0}
+  m_LocalPosition: {x: 9.9, y: 6.9, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -361,8 +362,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 40}
-  m_SizeDelta: {x: 1500, y: 300}
+  m_AnchoredPosition: {x: -241, y: 43}
+  m_SizeDelta: {x: 1500, y: 307.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768263574
 MonoBehaviour:
@@ -384,7 +385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: j
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -670,7 +671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 360}
+  m_AnchoredPosition: {x: 0, y: 383}
   m_SizeDelta: {x: 1500, y: 255.9689}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416279746
