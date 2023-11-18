@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -22720,19 +22720,19 @@ TextureImporter:
       Overworld_1049: -1017413992
       Overworld_896: -2097996258
       Overworld_506: 313447890
-      Overworld_939: -104243482
       Overworld_900: -544469108
       Overworld_51: -281837823
+      Overworld_653: -139597348
       Overworld_473: -643585694
-      Overworld_767: -258413818
+      Overworld_779: -124085582
       Overworld_375: -1609622924
       Overworld_688: 244708383
-      Overworld_779: -124085582
+      Overworld_767: -258413818
       Overworld_858: 2075592655
       Overworld_79: -1008695306
       Overworld_1034: 1314305287
       Overworld_359: -1341666743
-      Overworld_653: -139597348
+      Overworld_939: -104243482
       Overworld_142: -11076828
       Overworld_657: -2117970084
       Overworld_852: 1656421315
@@ -22928,13 +22928,13 @@ TextureImporter:
       Overworld_285: 1074246047
       Overworld_1008: -2098779667
       Overworld_873: 123207797
-      Overworld_472: 1537450040
+      Overworld_160: -440697996
       Overworld_424: -665906560
       Overworld_57: 614580699
       Overworld_787: 1526584445
-      Overworld_160: -440697996
       Overworld_47: -64873351
       Overworld_185: 1171664944
+      Overworld_472: 1537450040
       Overworld_410: -274427992
       Overworld_233: 1682296405
       Overworld_260: -1767841953
@@ -23205,13 +23205,13 @@ TextureImporter:
       Overworld_817: -1206851775
       Overworld_1036: 395021800
       Overworld_502: -1633998178
+      Overworld_446: 665372920
       Overworld_866: -514672324
-      Overworld_303: 440055009
-      Overworld_1052: -293729569
       Overworld_452: -1712539912
+      Overworld_303: 440055009
       Overworld_317: 1829938486
       Overworld_396: 441589826
-      Overworld_446: 665372920
+      Overworld_1052: -293729569
       Overworld_569: -1954171566
       Overworld_647: -2059491677
       Overworld_421: 456210934
