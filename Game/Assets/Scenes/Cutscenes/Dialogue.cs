@@ -12,15 +12,16 @@ public class Dialogue : MonoBehaviour
     public Animator fade;
 
     private int index;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         textComponent.text = string.Empty;
         StartDialogue();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -33,17 +34,16 @@ public class Dialogue : MonoBehaviour
                 StopAllCoroutines();
                 textComponent.text = lines[index];
             }
-
         }
     }
 
-    void StartDialogue()
+    private void StartDialogue()
     {
         index = 0;
         StartCoroutine(TypeLine());
     }
 
-    IEnumerator TypeLine()
+    private IEnumerator TypeLine()
     {
         foreach (char c in lines[index].ToCharArray())
         {
@@ -52,7 +52,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void NextLine()
+    private void NextLine()
     {
         if (index < lines.Length - 1)
         {
@@ -67,10 +67,10 @@ public class Dialogue : MonoBehaviour
             Invoke("Execute", 1f);
             gameObject.SetActive(false);
         }
-
     }
-    void Execute()
+
+    private void Execute()
     {
-        SceneManager.LoadScene("Cutscene1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
