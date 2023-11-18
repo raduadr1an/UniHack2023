@@ -26,27 +26,32 @@ public class playerMovement : MonoBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
-        vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+        if (Time.timeScale == 1)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
+            vertical = Input.GetAxisRaw("Vertical"); // -1 is down
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        animator.SetBool("isWalking", (horizontal != 0 || vertical != 0) ? true : false);
+            animator.SetBool("isWalking", (horizontal != 0 || vertical != 0) ? true : false);
+        }
     }
 
     private void FixedUpdate()
     {
-        if (horizontal != 0 && vertical != 0) // Check for diagonal movement
+        if (Time.timeScale == 1)
         {
-            // limit movement speed diagonally, so you move at 70% speed
-            horizontal *= moveLimiter;
-            vertical *= moveLimiter;
+            if (horizontal != 0 && vertical != 0)
+            {
+                horizontal *= moveLimiter;
+                vertical *= moveLimiter;
+            }
+            body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
+            Vector2 lookDir = mousePos - body.position;
+            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+            sprite.flipX = (angle < 0f && angle > -180f) ? false : true;
         }
 
-        body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
-        Vector2 lookDir = mousePos - body.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        sprite.flipX = (angle < 0f && angle > -180f) ? false : true;
-        Debug.Log(angle);
+        //Debug.Log(angle);
     }
 }

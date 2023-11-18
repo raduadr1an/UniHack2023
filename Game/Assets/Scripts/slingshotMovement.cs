@@ -20,15 +20,21 @@ public class slingshotMovement : MonoBehaviour
 
     private void Update()
     {
-        body.transform.position = new Vector2(player.transform.position.x + offset.x, player.transform.position.y + offset.y);
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        if (Time.timeScale == 1)
+        {
+            body.transform.position = new Vector2(player.transform.position.x + offset.x, player.transform.position.y + offset.y);
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        }
     }
 
     private void FixedUpdate()
     {
-        Vector2 lookDir = mousePos - body.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        body.rotation = angle;
+        if (Time.timeScale == 1)
+        {
+            Vector2 lookDir = mousePos - body.position;
+            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+            body.rotation = angle;
+        }
     }
 
     public GameObject getPlayer()

@@ -19,12 +19,15 @@ public class slingshotShooting : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Time.timeScale == 1)
         {
-            if (Time.time - timeOfLastShot >= timeBtwShots) //If the time elapsed is more than the fire rate, allow a shot
+            if (Input.GetMouseButtonDown(0))
             {
-                Fire();
-                timeOfLastShot = Time.time;   //set new time of last shot
+                if (Time.time - timeOfLastShot >= timeBtwShots) //If the time elapsed is more than the fire rate, allow a shot
+                {
+                    Fire();
+                    timeOfLastShot = Time.time;   //set new time of last shot
+                }
             }
         }
     }
