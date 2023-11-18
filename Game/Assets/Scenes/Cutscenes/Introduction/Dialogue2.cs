@@ -4,12 +4,15 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Dialogue : MonoBehaviour
+public class Dialogue2 : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     public Animator fade;
+
+    public Animator fadeTextBox;
+
 
     private int index;
     // Start is called before the first frame update
@@ -64,6 +67,7 @@ public class Dialogue : MonoBehaviour
         {
             // If this is the last line, set the boolean to true
             fade.SetBool("Finish line", true);
+            fadeTextBox.SetBool("Finish line", true);
             Invoke("Execute", 1f);
             gameObject.SetActive(false);
         }
@@ -71,6 +75,6 @@ public class Dialogue : MonoBehaviour
     }
     void Execute()
     {
-        SceneManager.LoadScene("Cutscene2");
+        SceneManager.LoadScene("Cutscene1");
     }
 }
