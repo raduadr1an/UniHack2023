@@ -48,6 +48,7 @@ public class playerMovement : MonoBehaviour
             }
             body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
             Vector2 lookDir = mousePos - body.position;
+
             float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
             sprite.flipX = (angle < 0f && angle > -180f) ? false : true;
         }
