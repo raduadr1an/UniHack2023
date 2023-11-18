@@ -177,8 +177,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - Life was beautiful in the city of Emberfall <
-  - before the rise to power of the evil Lord Tristan Emberbane. <
+  - At first there were two kinds of people in Emberfall. <
+  - While some were blue and some were yellow they did not care of it at all. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
 --- !u!114 &376652220

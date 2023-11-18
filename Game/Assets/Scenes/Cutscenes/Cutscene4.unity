@@ -215,9 +215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - This group moved into a nearby village named Willowbrook<
-  - The villagers welcomed the immigrant group with open arms<
-  - They offered them places to stay and food to eat<
+  - A blue leader stood forward. He bravely lead his people through a revolution.
+    <
+  - 'They managed to take back the kingdom. But they made one radical change... < '
+  - No more yellows allowed. Not even the innocent ones. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}

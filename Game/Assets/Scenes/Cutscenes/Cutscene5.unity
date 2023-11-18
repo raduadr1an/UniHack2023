@@ -215,10 +215,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - "They also taught them about the \u201CGod Of Water\u201D<"
-  - A divine figure which they worship<
-  - It is said that the people who worship this god are loyal and hard working<
-  - But their biggest flaw is that they are very hostile to people of different beliefs<
+  - Not much time passed since and the blue leader started to get an eerie feeling.
+    <
+  - 'Some sort of sadness was growing inside of him. < '
+  - He made the decision to gather his people and go to the new camp where the yellows
+    were. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}

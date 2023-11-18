@@ -215,10 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - " A group of people knew about Emberlane\u2019s evil intentions"
-  - They tried convincing the rest of the citizens not to follow his movement, but
-    they failed<
-  - This failure has led to the group exiling from the city<
+  - The blues were startled by the yellows king's ascent to throne. <
+  - Yet they did nothing. Until he started to make changes that is. <
+  - The blues were opressed... And that's when it happened. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}

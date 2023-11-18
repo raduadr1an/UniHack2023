@@ -215,8 +215,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - Emberbane was a master manipulator who started a movement<
-  - " that turned the city of Emberfall into an empire named \u201CImperium Embralis\u201D<"
+  - Amongst the  yellow people  was a master manipulator who started a movement.
+    <
+  - He turned the city of Emberfall into monarchy. <
+  - The Kingdom of Emberfall was born. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
