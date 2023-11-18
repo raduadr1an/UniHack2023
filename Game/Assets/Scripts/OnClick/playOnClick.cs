@@ -7,6 +7,6 @@ public class playOnClick : MonoBehaviour
 {
     public void play()
     {
-        SceneManager.LoadScene("mainHub");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
