@@ -1058,7 +1058,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "           About           \n\tW --> up\n\tS --> down\n\tA --> left\n\tD
+  m_Text: "         Controls         \n\tW --> up\n\tS --> down\n\tA --> left\n\tD
     --> right\n\tRightClick --> shoot\n\tE --> talk\n\n"
 --- !u!222 &1135712171
 CanvasRenderer:
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6862745}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
