@@ -8,18 +8,14 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
-    public float textSpeed= 0.1f;
+    public float textSpeed = 0.1f;
     public Animator fade;
-    public AudioClip soundClip;
-    private AudioSource audioSource;
-
 
     private int index;
 
     // Start is called before the first frame update
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -52,7 +48,6 @@ public class Dialogue : MonoBehaviour
         foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
-            audioSource.Play();
             yield return new WaitForSeconds(textSpeed);
         }
     }
