@@ -3,11 +3,9 @@ using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
 {
-    public Transform player;
+    public Transform target;
     public float speed = 1f;
     public float delay = 3f; // Delay in seconds
-
-    private Vector2 targetPosition;
 
     void Start()
     {
@@ -18,19 +16,15 @@ public class ObjectMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        // Store the player's position at the end of the delay
-        targetPosition = player.position;
-
         while (true)
         {
             float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, step);
+            transform.position = Vector2.MoveTowards(transform.position, target.position, step);
 
-            if (Vector2.Distance(transform.position, targetPosition) < 1f)
-            {
-                // If the GameObject reaches the target position, stop moving
-                break;
-            }
+            //if (Vector2.Distance(transform.position, target.position) < 1f)
+            //{
+            //    target.position *= -1f;
+            //}
 
             yield return null; // Wait for the next frame
         }
