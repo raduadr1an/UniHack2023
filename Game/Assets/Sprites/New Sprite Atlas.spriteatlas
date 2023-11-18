@@ -55,7 +55,29 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 153ab270ddc4f56409f32bb0ce602bb1, type: 3}
-  - {fileID: 21300000, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -571320728, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -32598308, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 276440915, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 1657729976, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -2064147658, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -882616123, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -42687211, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 1461340663, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 366447187, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -877969587, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -318274358, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 191569420, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -1642097868, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 1497908230, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 55146007, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -622428436, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 804731600, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 334854117, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 903837747, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 227176405, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 2050683004, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: -353440812, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
+  - {fileID: 114461452, guid: 95870418be43b1245bd2f305ef705e51, type: 3}
   - {fileID: 21300000, guid: 7eb7dc682e42a2b428d0f01566f4855f, type: 3}
   - {fileID: 21300000, guid: ce101a6ab78b31a4fb4cb62b5833ac49, type: 3}
   - {fileID: -459423547, guid: f81772bd2e8483f4785f9dd90d51d37e, type: 3}
@@ -1133,7 +1155,29 @@ SpriteAtlas:
   - {fileID: 1551945371, guid: f81772bd2e8483f4785f9dd90d51d37e, type: 3}
   m_PackedSpriteNamesToIndex:
   - cave
-  - log
+  - log_8
+  - log_9
+  - log_2
+  - log_3
+  - log_0
+  - log_1
+  - log_6
+  - log_7
+  - log_4
+  - log_5
+  - log_11
+  - log_10
+  - log_13
+  - log_12
+  - log_15
+  - log_14
+  - log_17
+  - log_16
+  - log_19
+  - log_18
+  - log_20
+  - log_21
+  - log_22
   - objects
   - Inner
   - Overworld_827
