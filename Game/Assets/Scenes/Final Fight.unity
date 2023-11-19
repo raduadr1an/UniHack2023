@@ -90096,6 +90096,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 415532256317489092, guid: b7182d70f58625f42af9456d4a3853a1, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 415532256317489092, guid: b7182d70f58625f42af9456d4a3853a1, type: 3}
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
