@@ -46,6 +46,7 @@ public class playerMovement : MonoBehaviour
                 horizontal *= moveLimiter;
                 vertical *= moveLimiter;
             }
+
             body.velocity = new Vector2(horizontal * moveSpeed, vertical * moveSpeed);
             Vector2 lookDir = mousePos - body.position;
 
