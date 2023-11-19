@@ -18,7 +18,7 @@ public class bossDie : MonoBehaviour
     {
         if (isOver())
         {
-            SceneManager.LoadScene("EndScreen");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
