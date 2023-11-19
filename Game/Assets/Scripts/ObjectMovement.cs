@@ -1,32 +1,28 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectMovement : MonoBehaviour
+public class Boss : MonoBehaviour
 {
-    public Transform target;
-    public float speed = 1f;
-    public float delay = 3f; // Delay in seconds
+    public int hitCount = 50;
+    public float speed = 5.0f;
+    private Transform player;
 
     void Start()
     {
-        StartCoroutine(MoveAfterDelay());
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    IEnumerator MoveAfterDelay()
+    void Update()
     {
-        yield return new WaitForSeconds(delay);
-
-        while (true)
+        if (hitCount <= 0)
         {
-            float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, target.position, step);
-
-            //if (Vector2.Distance(transform.position, target.position) < 1f)
-            //{
-            //    target.position *= -1f;
-            //}
-
-            yield return null; // Wait for the next frame
+            Destroy(gameObject);
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        hitCount -= 1;
     }
 }
