@@ -6,7 +6,7 @@ public class slingshotMovement : MonoBehaviour
 {
     public Rigidbody2D body;
     public GameObject player;
-    private Vector2 offset;
+    public float x, y;
 
     public Camera cam;
     private Vector2 mousePos;
@@ -15,14 +15,13 @@ public class slingshotMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         player = getPlayer();
-        offset = new Vector2(1f, 1f);
     }
 
     private void Update()
     {
         if (Time.timeScale == 1)
         {
-            body.transform.position = new Vector2(player.transform.position.x + offset.x, player.transform.position.y + offset.y);
+            body.transform.position = new Vector2(player.transform.position.x + x, player.transform.position.y + y);
             mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         }
     }

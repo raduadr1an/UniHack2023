@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
-public class BulletHits : MonoBehaviour
+public class bossDie : MonoBehaviour
 {
     public Transform transformPos;
-    public float x, y;
     private int collisionCount = 0;
 
     private void Start()
@@ -18,7 +18,7 @@ public class BulletHits : MonoBehaviour
     {
         if (isOver())
         {
-            transformPos.position = new Vector3(x, y, 0);
+            SceneManager.LoadScene("EndScreen");
         }
     }
 
@@ -32,7 +32,7 @@ public class BulletHits : MonoBehaviour
 
     private bool isOver()
     {
-        if (collisionCount >= 5)
+        if (collisionCount >= 15)
         {
             collisionCount = 0;
             return true;
