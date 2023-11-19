@@ -215,8 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 768263574}
   lines:
-  - The blues were startled by the yellows king's ascent to throne. <
-  - Yet they did nothing. Until he started to make changes that is. <
+  - The blues were startled by the yellow king's ascent to throne. <
+  - Yet they did nothing... <
+  - Until he started to make changes that is. <
   - The blues were opressed... And that's when it happened. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
@@ -320,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3, y: -20.4, z: 0}
-  m_LocalScale: {x: 3.1738014, y: 2.7014332, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -386,8 +387,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68fd78a94cdadf54ca6e723581082485, type: 2}
+  m_sharedMaterial: {fileID: -5111880825616897485, guid: 68fd78a94cdadf54ca6e723581082485, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -418,7 +419,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
