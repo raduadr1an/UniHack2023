@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 376652221}
   - component: {fileID: 376652220}
   - component: {fileID: 376652222}
-  - component: {fileID: 376652223}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -214,111 +213,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbaf5e7fe8020c44caac28abe59bb787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 768263574}
+  textComponent: {fileID: 768263576}
   lines:
-  - Amongst the  yellow people  was a master manipulator.<
+  - Amongst the yellow people there was a master manipulator.<
   - It was him who started a movement. <
-  - He turned the city of Emberfall into monarchy. <
-  - The Kingdom of Emberfall was born. <
+  - He turned the city of Emberfall into a monarchy. <
+  - He wished to turn everyone into gray people. <
+  - Just like that the Kingdom of Emberfall was born. <
   textSpeed: 0.1
   fade: {fileID: 750008283}
   fadeBox: {fileID: 1416279748}
---- !u!82 &376652223
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376652217}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 70fdae1eca74b8c4da9eefc770def6f0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 61c453c064e7e9d45a286735572ad3f1, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &750008282
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750008282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: -4.2, z: 0}
+  m_LocalPosition: {x: -1.59, y: -4.2, z: 0}
   m_LocalScale: {x: 3.1738014, y: 2.7014332, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -434,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 768263573}
   - component: {fileID: 768263575}
-  - component: {fileID: 768263574}
+  - component: {fileID: 768263576}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -462,7 +366,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 1500, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &768263574
+--- !u!222 &768263575
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768263572}
+  m_CullTransparentMesh: 1
+--- !u!114 &768263576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -484,8 +396,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 68fd78a94cdadf54ca6e723581082485, type: 2}
+  m_sharedMaterial: {fileID: -5111880825616897485, guid: 68fd78a94cdadf54ca6e723581082485, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -515,8 +427,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -551,14 +463,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &768263575
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768263572}
-  m_CullTransparentMesh: 1
 --- !u!1 &827031543
 GameObject:
   m_ObjectHideFlags: 0

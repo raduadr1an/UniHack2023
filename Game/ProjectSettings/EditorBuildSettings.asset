@@ -21,23 +21,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Hub.unity
     guid: efec10d4ac91f1d489fe3bd4c115c2c3
   - enabled: 1
-    path: Assets/Scenes/mainHub.unity
-    guid: 741ea275ba3711c43819cb57d8a933c1
-  - enabled: 1
-    path: Assets/Scenes/LEVEL 1.unity
-    guid: 516b89ca2af31bb41a4880bdc63f98f4
-  - enabled: 1
-    path: Assets/Scenes/Cutscenes/Cutscene5.unity
-    guid: bf00686ad342ed346bdfe0f15e42398f
-  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene6.unity
     guid: f8643ebc320f7da4aabf92c72ac5af52
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene7.unity
-    guid: f1c095aa3ccc79c45914ba451826c4db
+    guid: f96ef411b7493c9479b6f69fff5a75d0
+  - enabled: 1
+    path: Assets/Scenes/LEVEL 1.unity
+    guid: 516b89ca2af31bb41a4880bdc63f98f4
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene8.unity
-    guid: 713164709ce2da34e99d083e755d23c1
+    guid: 99cfd8830f9d4684eb9f0bbd588ff857
+  - enabled: 1
+    path: Assets/Scenes/Hub 1.unity
+    guid: b8a22af4a9584e14fbe79e5c0e44f55a
+  - enabled: 1
+    path: Assets/Scenes/mainHub.unity
+    guid: 741ea275ba3711c43819cb57d8a933c1
+  - enabled: 1
+    path: Assets/Scenes/Nightmare.unity
+    guid: 2b8e96f9157d5be458d6cf9d242579ee
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene5.unity
+    guid: bf00686ad342ed346bdfe0f15e42398f
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene9.unity
     guid: b84cf1b1e19aac146a1906542994642d
