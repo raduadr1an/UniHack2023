@@ -332,8 +332,8 @@ MonoBehaviour:
   - And it made me realise that we should not judge a book by its cover. <
   - Even though he's a yellow person, it's not his fault his people made a mistake.
     <
-  - And that's why I'm asking you to let them be among us, so that together we could
-    build a better future. <
+  - And that's why I'm asking you to let them live among us, so that together we
+    can build a better future. <
   textSpeed: 0.1
   fade: {fileID: 285938692}
   fadeBox: {fileID: 1416279748}
