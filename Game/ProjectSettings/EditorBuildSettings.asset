@@ -42,15 +42,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Nightmare.unity
     guid: 2b8e96f9157d5be458d6cf9d242579ee
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Cutscenes/Cutscene9.unity
     guid: 5efed316d1a2bc041ba6800c99d6e24e
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene10.unity
     guid: efc20617d283b7447a957b7713ca3b53
+=======
+    path: Assets/Scenes/Cutscenes/Cutscene5.unity
+    guid: bf00686ad342ed346bdfe0f15e42398f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene10.unity
+    guid: efc20617d283b7447a957b7713ca3b53
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+>>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene12.unity
     guid: 477c6f6a0556512459180172a7064bbc
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Cutscenes/Cutscene13.unity
     guid: e8b27e7112a099c41be2356879b74ad5
   - enabled: 1
@@ -59,4 +74,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Fight.unity
     guid: 396c5af6a242b454faa10197ae98e82e
+=======
+    path: Assets/Scenes/Cutscenes/Cutscene14.unity
+    guid: 36480fd61af2ac34b88444b8fbb410d7
+>>>>>>> Stashed changes
   m_configObjects: {}
