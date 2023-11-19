@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Final Fight.unity
     guid: 396c5af6a242b454faa10197ae98e82e
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene15.unity
+    guid: d7e72e6e689bba2458ab63ae23b077dc
+  - enabled: 1
     path: Assets/Scenes/Menus/EndScreen.unity
     guid: 21de4732d07a1ed4c9e840156bccbe39
   m_configObjects: {}

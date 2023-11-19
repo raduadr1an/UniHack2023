@@ -218,8 +218,8 @@ MonoBehaviour:
   - After that, the Blue people went to the Yellow base unarmed, to solve the conflict
     once and for all
   textSpeed: 0.1
-  fade: {fileID: 0}
-  fadeBox: {fileID: 0}
+  fade: {fileID: 1320775604}
+  fadeBox: {fileID: 1416279748}
 --- !u!1 &768263572
 GameObject:
   m_ObjectHideFlags: 0
