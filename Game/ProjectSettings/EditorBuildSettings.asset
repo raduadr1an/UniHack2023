@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/Cutscene3.unity
     guid: cf93d90a9d8806b44869a8321f4e5174
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/Cutscene4.unity
-    guid: 0860c890b2a49764eae7eda1942e9b53
-  - enabled: 1
     path: Assets/Scenes/Hub.unity
     guid: efec10d4ac91f1d489fe3bd4c115c2c3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene4.unity
+    guid: b7ed9ffc63e0e7847bc0f424889db090
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene6.unity
     guid: f8643ebc320f7da4aabf92c72ac5af52
@@ -42,18 +42,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Nightmare.unity
     guid: 2b8e96f9157d5be458d6cf9d242579ee
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/Cutscene5.unity
-    guid: bf00686ad342ed346bdfe0f15e42398f
-  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene9.unity
-    guid: b84cf1b1e19aac146a1906542994642d
+    guid: 5efed316d1a2bc041ba6800c99d6e24e
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene10.unity
     guid: efc20617d283b7447a957b7713ca3b53
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/Cutscene11.unity
-    guid: ce7b2967bae995149b12e17d7ed3ae09
-  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene12.unity
     guid: 477c6f6a0556512459180172a7064bbc
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene13.unity
+    guid: e8b27e7112a099c41be2356879b74ad5
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene14.unity
+    guid: e3684e8c9945cfe468715ec22b46c0be
+  - enabled: 1
+    path: Assets/Scenes/Final Fight.unity
+    guid: 396c5af6a242b454faa10197ae98e82e
   m_configObjects: {}
