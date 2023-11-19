@@ -6,6 +6,7 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 public class BulletHits : MonoBehaviour
 {
     public Transform transformPos;
+    public float x, y;
     private int collisionCount = 0;
 
     private void Start()
@@ -17,7 +18,7 @@ public class BulletHits : MonoBehaviour
     {
         if (isOver())
         {
-            transformPos.position = new Vector3(-5.8f, 2.2f, 0);
+            transformPos.position = new Vector3(x, y, 0);
         }
     }
 
